@@ -1,0 +1,9 @@
+User-agent: MJ12bot
+Crawl-delay: 50
+Disallow: /
+
+User-agent: BLEXBot
+Crawl-delay: 10
+
+User-agent: *
+Crawl-delay: 6

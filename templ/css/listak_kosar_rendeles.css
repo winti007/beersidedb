@@ -1,0 +1,478 @@
+.rendezes ul {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	list-style-type: none;
+	float: left;
+	margin: 0;
+}
+.rendezes ul li {
+	float: left;
+	margin-right: 20px;
+}
+.rendezes ul li a {
+	font-size: 20px;
+	color: #e2e2e2;
+}
+.rendezes, .lapozo {
+	background: #FFF;
+	margin-bottom: 30px;
+	padding: 15px;
+}
+.rendezes ul li a {
+	font-size: 30px;
+	color: #e2e2e2;
+}
+.rendezes ul li a.active, .rendezes ul li a:hover {
+	color: #213ca7;
+}
+.selector1, .selector2 {
+	float: right;
+}
+.selector1 select {
+	width: 250px;
+}
+.selector2 select {
+	width: 60px;
+}
+.selector2 .oldaldb {
+	padding-right: 20px;
+}
+.selector1 select, .selector2 select {
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.pagination > li > a, .pagination > li > span {
+	color: #213ca7;
+}
+.rendezes, .lapozo {
+	background: #FFF;
+	margin-bottom: 30px;
+	padding: 15px;
+}
+.lapozo .darab {
+	display: inline-block;
+	padding-top: 5px;
+}
+.lapozo .pagination {
+	margin: 0;
+}
+.termeklista1, .termeklista2 {
+	background: #FFF;
+	margin-bottom: 20px;
+}
+.container-fluid.resetpadding {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.lista1 .lista1_bel {
+	border: thin solid #e2e2e2;
+	padding: 10px;
+}
+.lista1 .lista1_bel .termek_belso {
+	text-align: center;
+}
+.listakep {
+	padding: 20px 50px;
+}
+.termeklista2 .listakep {
+	padding: 0px 0px;
+}
+.gyarto {
+	margin-bottom: 20px;
+}
+.termeklista2 .gyarto {
+	margin-bottom: 0px;
+}
+.termekar {
+	font-weight: bold;
+	white-space: nowrap;
+	padding-bottom: 5px;
+	line-height: 21px;
+	position: relative;
+	padding-top: 0px;
+	font-size: 20px;
+	text-align:center;
+	display:block;
+}
+.megnevezes {
+	font-size: 18px;
+	position: relative;
+	padding-bottom: 30px;
+	min-height: 82px;
+}
+.megnevezes .kieg_info {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgba(255,0,0,1.00);
+}
+.termeklista2 .megnevezes {
+	text-align: center;
+	padding-top: 10px;
+	font-size: 16px;
+	position: relative;
+	padding-bottom: 0px;
+	min-height: auto;
+}
+.termeklista2 .megnevezes .kieg_info {
+	position: relative;
+	bottom: inherit;
+	width: 100%;
+	font-size: 14px;
+	font-weight: bold;
+	color: rgba(255,0,0,1.00);
+}
+.termek_ikonsor {
+	padding-top: 10px;
+}
+.termeklista2 .termek_ikonsor {
+	padding-top: 10px;
+}
+.termek_ikonsor.eredmenyek {
+	margin-bottom: 20px;
+}
+.termeklista2 .termek_ikonsor.eredmenyek {
+	margin-bottom: 0px;
+}
+span.guminyil {
+	background-image: url(../images/guminyil.png);
+	background-position: left center;
+	color: #FFF;
+	display: block;
+	line-height: 30px;
+	padding-left: 6px;
+	margin-left: -3px;
+	margin-right: -2px;
+}
+.termeklista2 span.guminyil {
+	text-align: center;
+}
+.termekar .regi_ar {
+	color: #fd3a63;
+	text-decoration: line-through;
+	font-size: 14px;
+	font-weight: normal;
+	display: inline-block;
+}
+.termeklista2 .meret {
+	text-align: center;
+}
+.termeklista2 .termekar {
+	text-align: center;
+	padding-top: 10px;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+.termeklista2 .tovabb {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+.termeklista2 .tovabb a i {
+	font-size: 45px;
+}
+.l2_col1_1, .l2_col1_2, .l2_col1_3 {
+	float: none;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: -4px;
+}
+.artovabb {
+	text-align: center;
+}
+.row.tlist {
+	padding: 10px 0;
+	border-bottom: 2px solid #e2e2e2;
+}
+.termeklista2 .listacim {
+	min-height: auto;
+	font-weight: 700;
+}
+.termeklista2 .gyarto.listacim {
+	padding-left: 10px;
+}
+.container .termek_reszletes {
+	background-color: #FFFFFF;
+}
+.list_reszletes_leiras {
+	width: 100%;
+	display: table;
+	margin-bottom: 0;
+	list-style-type: none;
+}
+.list_reszletes_leiras li {
+	padding: 5px 10px;
+}
+.list_reszletes_leiras li:nth-child(2n+1) {
+	background-color: #f8f8f8;
+}
+.list_reszletes_leiras li span.adat, .list_reszletes_leiras li span.adatcim {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 3px 0;
+}
+.list_reszletes_leiras li span.adat {
+	text-align: right;
+	float: right;
+	font-size: 14px;
+	font-weight: 700;
+}
+.list_reszletes_leiras .termek_ikonsor.eredmenyek {
+	margin-bottom: 0px;
+}
+.list_reszletes_leiras li span.adatcim {
+}
+.list_reszletes_leiras li.akciosar span {
+	padding: 20px 0;
+	color: rgba(255,0,0,1.00);
+}
+.list_reszletes_leiras li.akciosar span {
+	padding: 20px 0;
+}
+.list_reszletes_leiras li.akciosar span.adat {
+	font-size: 20px;
+}
+.form-group.kosarbarak .db_input {
+	width: 60px;
+	text-align: center;
+	font-weight: 700;
+	display: inline-block;
+	vertical-align: middle;
+}
+.form-group.kosarbarak .darabszam {
+	display: inline-block;
+	padding-right: 20px;
+	vertical-align: middle;
+}
+.form-group.kosarbarak {
+	padding: 15px 10px;
+	text-align: right;
+}
+.reszleteshold {
+	margin: 20px auto;
+}
+.reszletes_ikonhold.clearfix {
+	float: right;
+}
+.reszletes_ikonhold.clearfix span.guminyil {
+	text-align: center;
+}
+.reszletes_ikonhold .termek_ikonsor, .reszletes_ikonhold .termek_ikonsor.eredmenyek {
+	width: 280px;
+}
+.kosarbox .kosarkep, .kosarbox .kosar_elemek {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+	margin-right: -4px;
+}
+.kosarbox .kosarkep, .kosarbox .kosar_elemek {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+	margin-right: -4px;
+}
+.kosarbox .kosar_megnevezes, .kosarbox .kosar_egysegar, .kosarbox .kosar_mennyiseg, .kosarbox .kosar_osszesen, .kosarbox .kosar_torles {
+	display: block;
+	padding: 10px 0;
+	float: none;
+	width: 100%;
+	padding: 0 15px;
+}
+.kosarbox .kosar_megnevezes .nevlink {
+	display: block;
+	font-size: 20px;
+}
+.kosarbox .kosar_egysegar, .kosarbox .kosar_osszesen {
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: normal;
+	color: #444444;
+	clear: left;
+}
+.kosarbox .kosar_osszesen i, .kosarbox .kosar_egysegar i {
+	font-size: 13px;
+	padding-right: 10px;
+}
+.kosarbox .kosar_egysegar span {
+	display: inline-block;
+}
+.kosarbox .kosar_egysegar span.normal_ar {
+	color: #fd3a63;
+	text-decoration: line-through;
+	font-size: 16px;
+	font-weight: normal;
+}
+.kosar_mennyiseg_input {
+	padding: 0;
+	text-align: center;
+	width: 50px;
+	display: inline-block;
+}
+.kosar_mennyiseg_gombok {
+	display: inline-block;
+	vertical-align: top;
+}
+.kosarbox .kosar_torles {
+	margin: 10px 0;
+}
+
+.kosar_egysegar.cim, .kosar_osszesen.cim {
+	text-align: center;
+	line-height: normal;
+}
+.kosarbox .btn-sajat.kulongomb {
+    padding: 6px 10px;
+	min-width: 40px;
+    border: thin solid #ccc;
+	text-align: center;
+	color: #FFF;
+}
+.kosar_elem a, .kosar_elem a:hover, .kosar_elem a:focus {
+	color: #213ca7;
+}
+.kosarbox .row.kosar_elem {
+    border-bottom: thin solid #e2e2e2;
+    margin-top: 0px;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: #FFF;
+}
+.osszegkeret {
+    border: thin solid #e2e2e2;
+    border-top: none;
+    border-right: none;
+    background: #fbfbfb;
+    padding: 20px;
+    font-size: 20px;
+}
+.osszegkeret .abs_vegosszeg {
+	font-size: 30px;
+	font-weight: 700;
+}
+.kosar_gombok {
+	margin: 20px 0;
+}
+.formok .form-horizontal .form-group {
+    margin-right: -0;
+    margin-left: -0;
+}
+.formok .form-group {
+    margin-bottom: 10px;
+}
+.formok label.control-label {
+    font-weight: 400;
+    padding-top: 4px;
+}
+.form-horizontal .control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: right;
+}
+.formok .form_csopcim {
+    font-weight: 700;
+}
+.kiszallitasi_modok ul {
+    list-style-type: none;
+}
+.kiszallitasi_modok ul label {
+    display: block;
+    text-align: right;
+}
+.kiszallitasi_modok ul ul {
+    display: none;
+}	
+.kiszallitasi_modok ul li {
+    border-left: thin solid #ddd;
+    border-right: thin solid #ddd;
+    border-bottom: thin solid #ddd;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.kiszallitasi_modok ul ul li:hover {
+    background-color: #f8f8f8;
+}	
+.kiszallitasi_modok ul li:first-child {
+    border-top: thin solid #ddd;
+}
+.kiszallitasi_modok .atvetelmod {
+    width: 100%;
+    display: block;
+}
+.kiszallitasi_modok .radio-inline {
+    padding-left: 0;
+}
+.kiszallitasi_modok ul label span.atvetel {
+    float: left;
+}
+.kiszallitasi_modok ul label span.osszeg {
+    display: inline-block;
+    min-width: 60px;
+}
+.kiszallitasi_modok ul li span.atvetelmod i {
+    float: right;
+}	
+.txt_main.formok {
+	background-color: #FFFFFF;
+	padding: 20px;
+	}
+@media screen and (min-width:480px) {
+}
+
+@media screen and (min-width:768px) {
+
+}
+
+@media screen and (min-width:992px) {
+.kosarbox .kosar_megnevezes, .kosarbox .kosar_egysegar, .kosarbox .kosar_mennyiseg, .kosarbox .kosar_osszesen, .kosarbox .kosar_torles {
+	display: inline-block;
+	width: inherit;
+	vertical-align: middle;
+}
+.kosarbox .kosar_megnevezes {
+	width: 100%;
+}
+
+.cimsor div, .cimsor div.kosar_egysegar, .cimsor div.kosar_osszesen {
+	font-weight: 500;
+	font-size: 16px;
+	color: #444;
+}
+
+.kosarbox .kosar_egysegar, .kosarbox .kosar_mennyiseg, .kosarbox .kosar_osszesen {
+	width: 30%;
+}
+}
+
+@media screen and (min-width:1200px) {
+.kosar_elemek {
+	text-align: right;
+}
+.kosarbox .kosar_megnevezes {
+	width: 49%;
+	text-align: left;
+}
+.kosarbox .kosar_egysegar, .kosarbox .kosar_osszesen {
+	width: 13%;
+}
+.kosarbox .kosar_mennyiseg {
+	width: 17%;
+	text-align: left;
+}
+.kosarbox .kosar_osszesen i, .kosarbox .kosar_egysegar i {
+	display: none;
+}
+.kosarbox .kosar_egysegar span {
+	display: block;
+}
+.cimsor {
+	display: block;
+}
+.kosarbox .kosar_osszesen i, .kosarbox .kosar_egysegar i {
+	display: none;
+}
+}

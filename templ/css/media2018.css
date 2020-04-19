@@ -1,0 +1,100 @@
+
+@media only screen and (min-width: 480px) {
+.teljes_valasztek .btn-lg.btn.btn-inv.btn-success {
+	font-size: 16px;
+}
+.adminsor_drag_elemgrp, .adminsor_drag_link {
+	display:flex;
+	align-items: center;
+	flex-wrap:wrap;
+}
+}
+
+@media only screen and (min-width: 768px) {
+.col-sm-5.text-left.xs-text-center {
+	text-align: left;
+}
+.col-sm-7.text-right.xs-text-center {
+	display: flex;
+	justify-content: flex-end;
+}
+.footer_menu ul {
+	display: block;
+}
+.footer_menu h4:after {
+	display: none;
+}
+.vc_col-sm-6 {
+width: 50%;
+float: left;	
+}
+.adminsor_drag_elemgrp, .adminsor_drag_link{
+flex-wrap:nowrap;
+}
+}
+
+@media only screen and (min-width: 991px) {
+#fomenu {
+	display: block;
+}
+.slicknav_menu {
+	display: none;
+}
+.row.header .col-xs-8.col-sm-8 {
+	text-align: center;
+}
+.menu-kosar {
+	display: inline-block;
+	padding: 20px 0;
+}
+#fomenu a {
+    font-size: 14px;
+}
+.row.header {
+	padding: 0px 0;
+}
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10000;
+}
+.content-main {
+    padding-top: 196px;
+}
+#fomenu0 li a, #fomenu0 li a strong {
+    font-size: 14px;
+}
+.content-main.admin {
+    padding-top: 0px;
+}
+}
+@media only screen and (min-width: 1200px) {
+	#fomenu a {
+	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 1em;
+	padding: 5px 6px;
+}
+.nyelvvalto_box a, .nyelvvalto_box strong {
+font-size: 14px;
+}
+.kosarosszeg {
+	font-size: 14px;
+}
+.fa.fa-shopping-cart {
+	font-size: 20px;
+}
+.keres_toggle {display: block;
+font-size: 16px;
+cursor: pointer;
+}
+#fomenu a {
+    font-size: 16px;
+}
+#fomenu0 li a, #fomenu0 li a strong {
+    font-size: 16px;
+}
+}
